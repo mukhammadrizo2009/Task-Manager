@@ -20,11 +20,11 @@ def main() -> None:
                     if choice == '1':
                         manager.add_task()
                     elif choice == '2':
-                        pass
+                        manager.check_task()
                     elif choice == '3':
-                        pass
+                        manager.complete_task()
                     elif choice == '4':
-                        pass
+                        manager.do_not_task()
                     elif choice == '5':
                         manager.user = None
                     else:

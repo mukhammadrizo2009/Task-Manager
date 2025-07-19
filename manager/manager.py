@@ -3,7 +3,7 @@ from datetime import datetime
 from getpass import getpass
 from utils import is_valid_password, is_valid_name, make_password, print_satatus
 from models import User, Task
-
+from pprint import pprint
 
 class Manager:
     def __init__(self):
@@ -91,3 +91,27 @@ class Manager:
             tasks.append(task)
             json.dump(tasks, jsonfile, indent=4)
 
+    def check_task(self):
+        with open("data/tasks.json" , "r+") as file:
+            tasks = json.load(file)
+            pprint(tasks)
+
+    def complete_task(self):
+        with open("data/tasks.json") as file:
+            tasks = json.load(file)
+            
+            for task in tasks:
+                if task.get("completed") == False:
+                    task["completed"] = True
+                    
+        with open("data/tasks.json" , "w+") as file:
+            json.dump(task, file , ensure_ascii=False , indent=4)
+            
+    def do_not_task(self):
+        with open("data/tasks.json") as file:
+            tasks = json.load(file)
+            
+            for task in tasks:
+                if task.get("completed") == False:
+                    pprint(task)
+                

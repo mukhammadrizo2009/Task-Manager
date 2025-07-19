@@ -10,5 +10,23 @@
         "name": "Vali Aliyev",
         "username": "vali",
         "password": "1718c24b10aeb8099e3fc44960ab6949ab76a267352459f203ea1036bec382c2"
+    },
+    {
+        "user_id": "0c4b4772-63b6-11f0-9664-b6a8eca90964",
+        "name": "ali",
+        "username": "alill",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f"
+    },
+    {
+        "user_id": "e42aca94-63b6-11f0-a2b7-b6a8eca90964",
+        "name": "rizo",
+        "username": "rizo",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f"
+    },
+    {
+        "user_id": "03a7f2d3-63b8-11f0-bc47-b6a8eca90964",
+        "name": "ali",
+        "username": "alir",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f"
     }
 ]
